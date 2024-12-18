@@ -1,0 +1,56 @@
+/* Existing styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #0078D4;
+}
+
+/* New styles for the form */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    font-size: 16px;
+}
+
+p {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Style for the submit button */
+button {
+    padding: 10px 20px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
